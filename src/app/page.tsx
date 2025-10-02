@@ -21,6 +21,7 @@ export default function Home() {
   const badmintonImage = PlaceHolderImages.find(
     (img) => img.id === "badminton"
   );
+  const coachImage = PlaceHolderImages.find((img) => img.id === "coach");
   const testimonialImages = {
     t1: PlaceHolderImages.find((img) => img.id === "testimonial1"),
     t2: PlaceHolderImages.find((img) => img.id === "testimonial2"),
@@ -94,9 +95,36 @@ export default function Home() {
             </p>
         </div>
       </section>
+      
+      <section id="meet-the-coach" className="py-16 md:py-24 bg-secondary">
+        <div className="container px-4">
+          <div className="grid gap-12 md:grid-cols-2 md:items-center">
+            <div className="order-last md:order-first text-center md:text-left">
+              <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
+                Meet Your Coach
+              </h2>
+              <h3 className="font-headline text-2xl font-semibold text-primary mt-2">Viswabujithan Srinivasan</h3>
+              <p className="mt-4 text-lg text-muted-foreground">
+                As a certified Strength & Conditioning coach and a passionate Badminton player, I founded Momentum Fitness to help people unlock their athletic potential. My approach is holistic, focusing not just on physical strength but also on mental resilience and strategic thinking. I believe in building strong relationships with my clients to create personalized plans that are both challenging and sustainable.
+              </p>
+            </div>
+            <div className="relative h-96 w-full max-w-md mx-auto overflow-hidden rounded-lg shadow-2xl">
+              {coachImage && (
+                <Image
+                  src={coachImage.imageUrl}
+                  alt={coachImage.description}
+                  data-ai-hint={coachImage.imageHint}
+                  fill
+                  className="object-cover"
+                />
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
 
 
-      <section id="services" className="bg-secondary py-16 md:py-24">
+      <section id="services" className="bg-white py-16 md:py-24">
         <div className="container px-4">
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
@@ -176,7 +204,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="testimonials" className="py-16 md:py-24">
+      <section id="testimonials" className="bg-secondary py-16 md:py-24">
         <div className="container px-4">
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
@@ -223,7 +251,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="bg-secondary py-16 md:py-24">
+      <section id="contact" className="py-16 md:py-24">
         <div className="container px-4">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
