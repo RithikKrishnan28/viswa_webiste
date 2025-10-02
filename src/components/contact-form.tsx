@@ -43,7 +43,7 @@ export function ContactForm() {
     const body = encodeURIComponent(
       `Name: ${values.name}\nEmail: ${values.email}\n\nMessage:\n${values.message}`
     );
-    window.location.href = `mailto:contact@momentumfitness.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:viswabujithan.s@gmail.com?subject=${subject}&body=${body}`;
   }
 
   return (
