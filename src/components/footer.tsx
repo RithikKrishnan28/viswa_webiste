@@ -15,13 +15,10 @@ export function Footer() {
             © {new Date().getFullYear()} Momentum Fitness. All rights reserved.
           </p>
           <div className="flex space-x-4">
-            <Link href="#" aria-label="Twitter" className="text-muted-foreground transition-colors hover:text-primary">
-              <Twitter className="h-5 w-5" />
-            </Link>
-            <Link href="#" aria-label="Instagram" className="text-muted-foreground transition-colors hover:text-primary">
+            <Link href="https://www.instagram.com/iamviswabujithan" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-muted-foreground transition-colors hover:text-primary">
               <Instagram className="h-5 w-5" />
             </Link>
-            <Link href="#" aria-label="LinkedIn" className="text-muted-foreground transition-colors hover:text-primary">
+            <Link href="https://www.linkedin.com/in/viswabujithan-srinivasan" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground transition-colors hover:text-primary">
               <Linkedin className="h-5 w-5" />
             </Link>
           </div>
