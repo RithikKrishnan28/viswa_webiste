@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Athlete in a gym looking determined.",
+      "imageUrl": "https://images.unsplash.com/photo-1648993199399-689019c2aa73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b3Jrb3V0JTIwZ3ltfGVufDB8fHx8MTc1OTQwNzkwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "workout gym"
+    },
+    {
+      "id": "strength",
+      "description": "Person lifting weights in a gym.",
+      "imageUrl": "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3ZWlnaHRsaWZ0aW5nfGVufDB8fHx8MTc1OTMxMjkyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "weightlifting"
+    },
+    {
+      "id": "badminton",
+      "description": "Action shot of a badminton player hitting a shuttlecock.",
+      "imageUrl": "https://images.unsplash.com/photo-1613918431551-b2ef2720387c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiYWRtaW50b24lMjBzcG9ydHxlbnwwfHx8fDE3NTk0MDc5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "badminton sport"
+    },
+    {
+      "id": "testimonial1",
+      "description": "Smiling client.",
+      "imageUrl": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc1OTMyNDQ0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "testimonial2",
+      "description": "Another smiling client.",
+      "imageUrl": "https://images.unsplash.com/photo-1635131902146-6957477a4ff4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc1OTMyNDQ0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "testimonial3",
+      "description": "A third smiling client.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc1OTMyNDQ0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    }
+  ]
 }
