@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -5,9 +6,9 @@ import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Viswa Coaching - Strength, Conditioning & Badminton",
+  title: "Momentum Fitness - Strength, Conditioning & Badminton",
   description:
-    "Professional strength & conditioning and badminton coaching by Viswa Bujithan. Achieve your peak performance.",
+    "Professional strength & conditioning and badminton coaching by Momentum Fitness. Achieve your peak performance.",
 };
 
 export default function RootLayout({

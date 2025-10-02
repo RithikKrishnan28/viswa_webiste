@@ -1,3 +1,4 @@
+
 import { Dumbbell, Twitter, Instagram, Linkedin } from "lucide-react";
 import Link from 'next/link';
 
@@ -8,10 +9,10 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <div className="flex items-center space-x-2">
             <Dumbbell className="h-6 w-6 text-primary" />
-            <span className="font-headline font-bold">Viswa Coaching</span>
+            <span className="font-headline font-bold">Momentum Fitness</span>
           </div>
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Viswa Bujithan. All rights reserved.
+            © {new Date().getFullYear()} Momentum Fitness. All rights reserved.
           </p>
           <div className="flex space-x-4">
             <Link href="#" aria-label="Twitter" className="text-muted-foreground transition-colors hover:text-primary">

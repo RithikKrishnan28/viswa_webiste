@@ -23,7 +23,7 @@ export function Header() {
           <Link href="/" className="flex items-center space-x-2">
             <Dumbbell className="h-6 w-6 text-primary" />
             <span className="font-headline text-lg font-bold sm:inline-block">
-              Viswa Coaching
+              Momentum Fitness
             </span>
           </Link>
         </div>
@@ -54,7 +54,7 @@ export function Header() {
                   onClick={() => setIsOpen(false)}
                 >
                   <Dumbbell className="h-6 w-6 text-primary" />
-                  <span className="font-headline font-bold">Viswa Coaching</span>
+                  <span className="font-headline font-bold">Momentum Fitness</span>
                 </Link>
                 <nav className="flex flex-col space-y-4">
                   {navLinks.map((link) => (

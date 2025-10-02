@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import Link from "next/link";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -30,7 +31,7 @@ export default function Home() {
     {
       name: "Alex Johnson",
       role: "Badminton Athlete",
-      text: "Viswa's coaching transformed my game. His attention to detail and personalized drills improved my agility and power on the court immensely.",
+      text: "Momentum Fitness's coaching transformed my game. Their attention to detail and personalized drills improved my agility and power on the court immensely.",
       avatar: testimonialImages.t1?.imageUrl,
       avatarFallback: "AJ",
       imageHint: testimonialImages.t1?.imageHint,
@@ -38,7 +39,7 @@ export default function Home() {
     {
       name: "Samantha Lee",
       role: "Fitness Enthusiast",
-      text: "The strength and conditioning program was a game-changer. I'm stronger, faster, and more confident than ever. Viswa is an incredible motivator!",
+      text: "The strength and conditioning program was a game-changer. I'm stronger, faster, and more confident than ever. Momentum Fitness is an incredible motivator!",
       avatar: testimonialImages.t2?.imageUrl,
       avatarFallback: "SL",
       imageHint: testimonialImages.t2?.imageHint,
@@ -46,7 +47,7 @@ export default function Home() {
     {
       name: "Michael Chen",
       role: "Amateur Player",
-      text: "I started as a complete beginner in badminton. Thanks to Viswa, I now play competitively and feel fantastic. His coaching style is both fun and effective.",
+      text: "I started as a complete beginner in badminton. Thanks to Momentum Fitness, I now play competitively and feel fantastic. Their coaching style is both fun and effective.",
       avatar: testimonialImages.t3?.imageUrl,
       avatarFallback: "MC",
       imageHint: testimonialImages.t3?.imageHint,
@@ -73,8 +74,8 @@ export default function Home() {
               Unlock Your Peak Performance
             </h1>
             <p className="mt-4 max-w-2xl text-lg text-primary-foreground/90 drop-shadow-sm md:text-xl">
-              Expert Strength & Conditioning and Badminton Coaching with Viswa
-              Bujithan.
+              Expert Strength & Conditioning and Badminton Coaching with Momentum
+              Fitness.
             </p>
             <Button asChild size="lg" className="mt-8 bg-accent hover:bg-accent/90">
               <Link href="#contact">Get Started Today</Link>
@@ -86,10 +87,10 @@ export default function Home() {
       <section id="about" className="py-16 md:py-24">
         <div className="container px-4 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              Meet Your Coach
+              Meet Your Coaches
             </h2>
             <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-              Viswa Bujithan is a dedicated and certified coach specializing in strength & conditioning and badminton. With a passion for helping athletes and individuals reach their full potential, Viswa combines scientific principles with practical experience to create personalized training programs that deliver results.
+              Momentum Fitness is a team of dedicated and certified coaches specializing in strength & conditioning and badminton. With a passion for helping athletes and individuals reach their full potential, we combine scientific principles with practical experience to create personalized training programs that deliver results.
             </p>
         </div>
       </section>
@@ -229,7 +230,7 @@ export default function Home() {
               Ready to Start?
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Let&apos;s connect. Fill out the form below, and I&apos;ll get back to you to discuss your goals and how we can achieve them together.
+              Let&apos;s connect. Fill out the form below, and we&apos;ll get back to you to discuss your goals and how we can achieve them together.
             </p>
           </div>
           <div className="mx-auto mt-12 max-w-xl">
