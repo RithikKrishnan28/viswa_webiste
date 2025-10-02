@@ -1,4 +1,6 @@
+
 import Image from "next/image";
+import type { Metadata } from "next";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import {
   Accordion,
@@ -7,6 +9,11 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Feather, Move, BrainCircuit, Trophy } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Badminton Coaching",
+  description: "Elevate your badminton game with expert coaching on technique, footwork, and strategy. We offer personalized programs for beginners to advanced players.",
+};
 
 export default function BadmintonPage() {
   const badmintonImage = PlaceHolderImages.find((img) => img.id === "badminton");
@@ -54,7 +61,7 @@ export default function BadmintonPage() {
       <div className="container px-4">
         <section className="text-center">
           <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl">
-            Badminton Coaching
+            Expert Badminton Coaching
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
             Elevate your game with expert guidance on technique, strategy, and on-court performance.
@@ -87,7 +94,7 @@ export default function BadmintonPage() {
         <section className="mt-16 md:mt-24">
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              Coaching Focus Areas
+              Badminton Coaching Focus Areas
             </h2>
           </div>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

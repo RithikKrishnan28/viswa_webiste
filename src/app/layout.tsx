@@ -6,9 +6,13 @@ import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Momentum Fitness - Strength, Conditioning & Badminton",
+  title: {
+    default: "Momentum Fitness - Strength, Conditioning & Badminton Coaching",
+    template: "%s | Momentum Fitness",
+  },
   description:
-    "Professional strength & conditioning and badminton coaching by Momentum Fitness. Achieve your peak performance.",
+    "Unlock your peak performance with professional strength & conditioning and badminton coaching from Momentum Fitness. Personalized programs for all skill levels.",
+  keywords: ["strength and conditioning", "badminton coaching", "personal training", "athletic performance", "fitness coach"],
 };
 
 export default function RootLayout({

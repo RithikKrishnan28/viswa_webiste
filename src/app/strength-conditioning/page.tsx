@@ -1,4 +1,6 @@
+
 import Image from "next/image";
+import type { Metadata } from "next";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import {
   Accordion,
@@ -7,6 +9,11 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Dumbbell, Zap, Shield, Target } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Strength & Conditioning Coaching",
+  description: "Build a powerful athletic foundation with our expert strength and conditioning coaching. Our programs focus on increasing strength, speed, and injury prevention.",
+};
 
 export default function StrengthConditioningPage() {
   const strengthImage = PlaceHolderImages.find((img) => img.id === "strength");
@@ -74,7 +81,7 @@ export default function StrengthConditioningPage() {
             )}
           </div>
           <div className="space-y-4">
-            <h2 className="font-headline text-3xl font-bold">Why It Matters</h2>
+            <h2 className="font-headline text-3xl font-bold">Why Strength & Conditioning Matters</h2>
             <p className="text-muted-foreground">
               A solid strength and conditioning base is the cornerstone of all athletic achievement. It's not just about lifting heavy weights; it's about building a smarter, more efficient, and resilient body. Our programs are scientifically designed to enhance your performance, reduce the risk of injury, and help you surpass your limits.
             </p>
@@ -87,7 +94,7 @@ export default function StrengthConditioningPage() {
         <section className="mt-16 md:mt-24">
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              Program Benefits
+              Benefits of Our S&C Program
             </h2>
           </div>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

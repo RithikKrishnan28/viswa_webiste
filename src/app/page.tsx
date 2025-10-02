@@ -87,7 +87,7 @@ export default function Home() {
       <section id="about" className="py-16 md:py-24">
         <div className="container px-4 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              Meet Your Coaches
+              Your Premier Fitness & Badminton Coaches
             </h2>
             <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
               Momentum Fitness is a team of dedicated and certified coaches specializing in strength & conditioning and badminton. With a passion for helping athletes and individuals reach their full potential, we combine scientific principles with practical experience to create personalized training programs that deliver results.
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="container px-4">
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              Coaching Services
+              Our Coaching Services
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
               Tailored programs designed to elevate your physical and technical skills.
@@ -130,7 +130,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Our programs are designed for athletes and individuals aiming to enhance their physical capabilities. We focus on injury prevention, performance optimization, and building robust fitness.
+                  Our specialized strength and conditioning programs are designed for athletes and individuals aiming to enhance their physical capabilities. We focus on injury prevention, performance optimization, and building robust, long-term fitness.
                 </p>
               </CardContent>
               <CardFooter>
@@ -158,12 +158,12 @@ export default function Home() {
                   Badminton Coaching
                 </CardTitle>
                 <CardDescription>
-                  Master the game, from fundamentals to advanced tactics.
+                  Master the game, from fundamentals to advanced on-court tactics.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
-                  Receive one-on-one or group coaching to refine your technique, improve your footwork, and develop winning strategies on the court. Suitable for all skill levels.
+                  Receive expert one-on-one or group badminton coaching to refine your technique, improve your footwork, and develop winning strategies on the court. Suitable for all skill levels from beginner to advanced.
                 </p>
               </CardContent>
               <CardFooter>
@@ -180,7 +180,7 @@ export default function Home() {
         <div className="container px-4">
           <div className="mb-12 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              Success Stories
+              Success Stories from Our Clients
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
               Hear from clients who have transformed their performance with us.
@@ -227,7 +227,7 @@ export default function Home() {
         <div className="container px-4">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              Ready to Start?
+              Ready to Start Your Fitness Journey?
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
               Let&apos;s connect. Fill out the form below, and we&apos;ll get back to you to discuss your goals and how we can achieve them together.
