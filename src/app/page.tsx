@@ -68,13 +68,13 @@ export default function Home() {
             priority
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-background/20" />
+        <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
           <div className="container px-4">
-            <h1 className="font-headline text-4xl font-bold tracking-tight text-primary-foreground drop-shadow-md sm:text-5xl md:text-6xl">
+            <h1 className="font-headline text-4xl font-bold tracking-tight text-primary-foreground sm:text-5xl md:text-6xl">
               Unlock Your Peak Performance
             </h1>
-            <p className="mt-4 max-w-2xl text-lg text-primary-foreground/90 drop-shadow-sm md:text-xl">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-primary-foreground md:text-xl">
               Expert Strength & Conditioning and Badminton Coaching with Momentum
               Fitness.
             </p>
